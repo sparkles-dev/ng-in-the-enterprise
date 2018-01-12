@@ -11,3 +11,8 @@ trim_trailing_whitespace = true
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
+
+[*.xml]
+indent_style = space
+indent_size = 4
