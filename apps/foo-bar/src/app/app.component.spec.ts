@@ -13,7 +13,7 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
   it(`should break`, () => {
-    expect(SHARED).toEqual(UTIL);
+    expect(UTIL).toEqual(SHARED);
   })
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
