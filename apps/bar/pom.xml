@@ -45,9 +45,7 @@
                 <configuration>
                     <nodeVersion>v8.9.0</nodeVersion>
                     <yarnVersion>v1.3.2</yarnVersion>
-                        <configuration>
-                            <workingDirectory>${pom.parent.basedir}</workingDirectory>
-                        </configuration>
+                    <workingDirectory>${pom.parent.basedir}</workingDirectory>
                 </configuration>
             </plugin>
         </plugins>
