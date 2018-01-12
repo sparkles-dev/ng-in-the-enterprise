@@ -1,4 +1,4 @@
-# NgInTheEnterprise
+# Angular in the Enterprise
 
 > Enterprise ... multi module ... enterprise ... large ... not small ... maven maven maven ... enterpre grade build tools ... gradle
 
