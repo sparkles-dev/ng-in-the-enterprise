@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "apps:bar:build": "ng build --app bar",
+    "apps:foo:build": "ng build --app foo",
+    "apps:foo-bar:build": "ng build --app foo-bar"
   },
   "private": true,
   "dependencies": {
