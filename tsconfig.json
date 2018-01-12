@@ -14,6 +14,24 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@enterprise/common": [
+        "packages/common/src/public_api.ts"
+      ],
+      "@enterprise/core": [
+        "packages/common/src/public_api.ts"
+      ],
+      "@enterprise/framework": [
+        "packages/common/src/public_api.ts"
+      ],
+      "@enterprise/shared": [
+        "packages/common/src/public_api.ts"
+      ],
+      "@enterprise/util": [
+        "packages/common/src/public_api.ts"
+      ]
+    }
   }
 }

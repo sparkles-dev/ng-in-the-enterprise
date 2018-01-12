@@ -1,0 +1,5 @@
+{
+  "name": "@enterprise/common",
+  "description": "Common stuff in the enterprise.",
+  "private": true
+}

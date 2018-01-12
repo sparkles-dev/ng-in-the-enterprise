@@ -1,5 +1,9 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
+import { SHARED } from '@enterprise/shared';
+import { UTIL } from '@enterprise/util';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -8,6 +12,9 @@ describe('AppComponent', () => {
       ],
     }).compileComponents();
   }));
+  it(`should break`, () => {
+    expect(SHARED).toEqual(UTIL);
+  })
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;

@@ -1,0 +1,5 @@
+{
+  "name": "@enterprise/framework",
+  "description": "The enterprise likes to build frameworks.",
+  "private": true
+}

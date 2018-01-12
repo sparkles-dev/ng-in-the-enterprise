@@ -1,0 +1,5 @@
+{
+  "name": "@enterprise/core",
+  "description": "Core stuff in the enterprise.",
+  "private": true
+}
