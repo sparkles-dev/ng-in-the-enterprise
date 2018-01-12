@@ -21,16 +21,16 @@
         "packages/common/src/public_api.ts"
       ],
       "@enterprise/core": [
-        "packages/common/src/public_api.ts"
+        "packages/core/src/public_api.ts"
       ],
       "@enterprise/framework": [
-        "packages/common/src/public_api.ts"
+        "packages/framework/src/public_api.ts"
       ],
       "@enterprise/shared": [
-        "packages/common/src/public_api.ts"
+        "packages/shared/src/public_api.ts"
       ],
       "@enterprise/util": [
-        "packages/common/src/public_api.ts"
+        "packages/util/src/public_api.ts"
       ]
     }
   }
