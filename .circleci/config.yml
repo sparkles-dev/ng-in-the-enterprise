@@ -22,12 +22,6 @@ jobs:
       # Run the ci build
       - run: xvfb-run yarn test
       # Store artefacts on circle
-      - run:
-          name: Collect artefacts
-          command: |
-            mkdir -p /tmp/artefacts \
-              && cp -r --parents integration/samples/**/dist /tmp/artefacts \
-              && cp -r --parents integration/consumers/**/dist /tmp/artefacts
       - store_artifacts:
           path: ~/repo/dist
           destination: dist
