@@ -1,5 +1,45 @@
 {
-  "extends": [
-    "config:base"
+  "pinVersions": false,
+  "semanticCommits": true,
+  "semanticPrefix": "build:",
+  "commitMessage": "{{semanticPrefix}}update {{depName}} to version {{newVersion}}",
+  "separateMajorReleases": false,
+  "dependencies": {
+    "semanticPrefix": "fix:"
+  },
+  "packageFiles": [
+    "package.json"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@angular\/.*"],
+      "groupName": "angular",
+      "pinVersions": false
+    },
+    {
+      "packagePatterns": ["^@commitlint\/.*"],
+      "groupName": "commitlint",
+      "pinVersions": false
+    },
+    {
+      "packagePatterns": ["^@types\/.*"],
+      "groupName": "type definitions",
+      "pinVersions": false
+    },
+    {
+      "packagePatterns": ["^jasmine.*"],
+      "groupName": "jasmine",
+      "pinVersions": false
+    },
+    {
+      "packagePatterns": ["^karma.*"],
+      "groupName": "karma",
+      "pinVersions": false
+    },
+    {
+      "packagePatterns": ["^protractor.*"],
+      "groupName": "protractor",
+      "pinVersions": false
+    }
   ]
 }
