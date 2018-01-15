@@ -20,7 +20,7 @@ jobs:
           paths:
             - "node_modules"
       # Run the ci build
-      - run: yarn test
+      - run: xvfb-run yarn test
       # Store artefacts on circle
       - run:
           name: Collect artefacts
